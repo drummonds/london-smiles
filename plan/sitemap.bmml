@@ -1,0 +1,16 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1244" measuredH="448" mockupW="1104" mockupH="448">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::SiteMap" x="140" y="0" w="-1" h="-1" measuredW="1104" measuredH="310" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Alt%20Front%20Page%26bm%3BAlt%20Front%20Page.bmml%26bm%3BAlt%20Front%20Page.bmml%26bm%3BAlt%20Front%20Page.bmml%2C%2C%2C%2C%2C%2C%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22452%2C0%2C652%2C70%22%20href%3D%22Alt%2520Front%2520Page.bmml%22%20alt%3D%22Alt%20Front%20Page%22%20id%3D%220_0%22/%3E%0A</map>
+        <text>Home%5Crwww.londonsmilecampaign.com%0A-Smiles%0A--Health%20benefits%0A--Links%0A-Campaigns%5Cr%20thumbnails%20of%20work%0A-About%20Us%0A-Donate%0A-Contactus%20%0A-News%20%3F%0A-Blog%20%3F%0A-Legal</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::StickyNote" x="476" y="226" w="414" h="222" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>This%20shows%20how%20all%20the%20pages%20might%20fit%20together.%20%0AFrom%20the%20home%20page%20at%20the%20top%20to%20a%20variety%20of%20other%20%20pages</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

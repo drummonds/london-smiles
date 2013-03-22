@@ -1,0 +1,169 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1259" measuredH="676" mockupW="1236" mockupH="656">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="238" y="20" w="1021" h="656" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::StickyNote" x="23" y="41" w="200" h="410" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Requirements%20V0.0%0A-Based%20on%20Twitter%20Bootstrap%0A-Ideally%20using%20Django%20for%20templating%20system%20%28This%20is%20a%20sketch%20and%20its%20mostly%20static%20at%20the%20moment%20but%20it%20may%20develop%29%0AResponsive%20layout.%20Layout%20should%20adjust%20for%20different%20browsers%20from%20portrait%20iphone%2C%20iPad%20to%20large%20browser.%0AMake%20sure%20attribution%20and%20licensing%20of%20all%20assets%20is%20documented.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::CoverFlow" x="278" y="158" w="940" h="198" measuredW="493" measuredH="198" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./3217662958_08eea7ee70_o.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="__group__" x="274" y="99" w="940" h="44" measuredW="940" measuredH="44" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>tb-navbar</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="940" h="44" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="3">
+          <controlProperties>
+            <align>left</align>
+            <color>3355443</color>
+            <shape>roundRect</shape>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="12" y="7" w="283" h="-1" measuredW="252" measuredH="33" zOrder="1" locked="false" isInGroup="3">
+          <controlProperties>
+            <color>16777215</color>
+            <text>LondonSmilesCampaign</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::RoundButton" x="253" y="0" w="70" h="40" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="3">
+          <controlProperties>
+            <backgroundAlpha>0.5</backgroundAlpha>
+            <borderColor>3355443</borderColor>
+            <color>0</color>
+            <shape>rectangle</shape>
+            <size>13</size>
+            <text>Home</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::RoundButton" x="253" y="2" w="70" h="40" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="3">
+          <controlProperties>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>3355443</borderColor>
+            <color>0</color>
+            <shape>rectangle</shape>
+            <size>13</size>
+            <text>Smiles</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::RoundButton" x="321" y="2" w="70" h="40" measuredW="32" measuredH="32" zOrder="4" locked="false" isInGroup="3">
+          <controlProperties>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>3355443</borderColor>
+            <color>0</color>
+            <shape>rectangle</shape>
+            <size>13</size>
+            <text>Link</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::RoundButton" x="389" y="2" w="70" h="40" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="3">
+          <controlProperties>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>3355443</borderColor>
+            <color>0</color>
+            <shape>rectangle</shape>
+            <size>13</size>
+            <text>Link</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="__group__" x="459" y="3" w="103" h="40" measuredW="103" measuredH="40" zOrder="6" locked="false" isInGroup="3">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="103" h="40" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="6">
+              <controlProperties>
+                <backgroundAlpha>0</backgroundAlpha>
+                <borderColor>3355443</borderColor>
+                <color>0</color>
+                <shape>rectangle</shape>
+                <size>13</size>
+                <text>Dropdown</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="87" y="14" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="6">
+              <controlProperties>
+                <color>13421772</color>
+                <icon>DownFillTriangleIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::RoundButton" x="757" y="3" w="70" h="40" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="3">
+          <controlProperties>
+            <backgroundAlpha>0</backgroundAlpha>
+            <borderColor>3355443</borderColor>
+            <color>0</color>
+            <shape>rectangle</shape>
+            <size>13</size>
+            <text>Link</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="__group__" x="827" y="3" w="103" h="40" measuredW="103" measuredH="40" zOrder="8" locked="false" isInGroup="3">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="103" h="40" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="8">
+              <controlProperties>
+                <backgroundAlpha>0</backgroundAlpha>
+                <borderColor>3355443</borderColor>
+                <color>0</color>
+                <shape>rectangle</shape>
+                <size>13</size>
+                <text>Dropdown</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="87" y="14" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="8">
+              <controlProperties>
+                <color>13421772</color>
+                <icon>DownFillTriangleIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::VRule" x="827" y="3" w="-1" h="37" measuredW="10" measuredH="100" zOrder="9" locked="false" isInGroup="3">
+          <controlProperties>
+            <backgroundAlpha>0.25</backgroundAlpha>
+            <color>16777215</color>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::RoundButton" x="577" y="7" w="116" h="32" measuredW="32" measuredH="32" zOrder="10" locked="false" isInGroup="3">
+          <controlProperties>
+            <align>left</align>
+            <backgroundAlpha>1</backgroundAlpha>
+            <borderColor>0</borderColor>
+            <color>6710886</color>
+            <shape>roundRect</shape>
+            <size>13</size>
+            <text>%7Bcolor%3A%23ffffff%7DSearch%7Bcolor%7D</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::CallOut" x="34" y="520" w="265" h="47" measuredW="263" measuredH="39" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pictures%20from%20%0Ahttp%3A//www.flickr.com/photos/alancleaver/</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Arrow" x="183" y="270" w="418" h="256" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>bottom</direction>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Paragraph" x="342" y="356" w="418" h="252" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <markup>true</markup>
+        <text>-The%20London%20Smile%20Campaign%0AI%20wonder%20how%20many%20of%20you%20do%20what%20I%20do.%20I%20walk%20along%20the%20streets%20of%20London%20trying%20to%20make%20people%20smile.%20I%20do%20this%20by%20looking%20at%20people%20with%20a%20cheerful%20expression%20on%20my%20face%2C%20and%20giving%20them%20a%20gentle%20smile%20%28not%20a%20grin%3B%20not%20a%20grimace%29.%20I%20reckon%20some%2010%25%20of%20passers-by%20smile%20back.%20This%20gives%20me%20a%20great%20feeling%20of%20pleasant%20satisfaction%3B%20it%20also%20gives%20them%2C%20I%20am%20assured%2C%20a%20feeling%20of%20happiness.%0A%20%0AYour%20first%20thoughts%20might%20be%20%22This%20is%20childish%20and%20ridiculous%22.%20But%20is%20it%3F%20If%20we%20could%20get%2020%25%20or%20more%20of%20passers-by%20exchanging%20this%20type%20of%20friendly%20greeting%2C%20we%20could%20alter%20the%20entire%20emotional%20atmosphere%20of%20London%2C%20for%20the%20better.%20Why%20don%27t%20you%20give%20it%20a%20go%20-%20join%20the%20London%20Smile%20Campaign%2C%20and%20make%20yourself%20and%20othrs%20happier.%0AIan%20Niall%20Rankin</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="878" y="356" w="355" h="277" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Smiling%20is%20infectious%0AYou%20catch%20it%20like%20the%20%27flu.%0AWhen%20someone%20smiled%20at%20me%20today%0AI%20started%20smiling%20too.%0A%20%0AI%20passed%20around%20the%20corner%0AAnd%20someone%20saw%20my%20grin%2C%0AAnd%20when%20he%20smiled%20I%20realized%0AI%27d%20passed%20it%20on%20to%20him.%0A%20%0AI%20thought%20about%20that%20smile%0AThen%20realized%20its%20worth%2C%0AA%20single%20smile%2C%20just%20like%20mine%2C%0ACould%20travel%20round%20the%20earth.%0A%20%0ASo%2C%20if%20you%20feel%20a%20smile%20begin%2C%0ADon%27t%20leave%20it%20undetected%2C%0ALet%27s%20start%20an%20epidemic%20quick%0AAnd%20get%20the%20world%20infected%21%0A%20%0AKeep%20the%20smile%20going%20by%20sending%20this%20on%20to%20a%20friend......%0A%20%0AEveryone%20needs%20a%20smile%21</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
