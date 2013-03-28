@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row-fluid">
+    <div class="span12">
+        <h3>Contact Us</h3>
+        <form  >
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">Name</label>
+            <div class="controls">
+              <input type="text" id="inputname" placeholder="your name" class="span5">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputPassword"><b>Email</b>*</label>
+            <div class="controls">
+              <input type="text" id="inputemail" placeholder="Your Email" class="span5">
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="inputPassword"><b>Message</b>*</label>
+            <div class="controls">
+               <textarea class="span5" name="txtmsg" id="txtmsg" rows="10"></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+           <button type="submit" class="btn btn-success btn-large">Submit</button>
+       </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
