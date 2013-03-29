@@ -1,8 +1,14 @@
 # Django settings for smiles project.
 
-DEBUG = True
+import sys,os
+
+if sys.argv[1] == 'runserver':
+    DEBUG = True
+else:
+    DEBUG = False
+
 TEMPLATE_DEBUG = DEBUG
-import os
+
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
