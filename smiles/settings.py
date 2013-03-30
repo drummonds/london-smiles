@@ -7,7 +7,7 @@ if sys.argv[1] == 'runserver':
 else:
     DEBUG = False
 
-#DEBUG = True
+DEBUG = True
 
 TEMPLATE_DEBUG = DEBUG
 
