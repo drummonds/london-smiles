@@ -8,7 +8,6 @@ from django.conf import settings
 urlpatterns = patterns('',
     # Examples:
      url(r'^$', 'smileapp.views.home', name='home'),
-     url(r'^(?P<page_name>\w+)$', 'smileapp.views.staticpage', name='home'),
     # url(r'^smiles/', include('smiles.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
@@ -24,3 +23,7 @@ if not settings.DEBUG:
     urlpatterns += patterns('',
          (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
      )
+
+urlpatterns += patterns('',
+url(r'^(?P<page_name>\w+)$', 'smileapp.views.staticpage', name='home'),
+)
