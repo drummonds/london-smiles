@@ -11,7 +11,6 @@ else:
 
 TEMPLATE_DEBUG = DEBUG
 
-
 PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(__file__)
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -82,7 +81,7 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    os.path.join(os.path.abspath(os.path.dirname(__file__) + '/..')),
+    os.path.join(PROJECT_PATH, 'static'),
     #"static/",
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
@@ -118,7 +117,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'smiles.urls'
 
 TEMPLATE_DIRS = (
-    os.path.join(os.path.abspath(os.path.dirname(__file__) + '/..')),
+     os.path.join(PROJECT_PATH, 'templates'),
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
