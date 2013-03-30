@@ -7,9 +7,14 @@ if sys.argv[1] == 'runserver':
 else:
     DEBUG = False
 
-DEBUG = True
+#DEBUG = True
 
 TEMPLATE_DEBUG = DEBUG
+
+
+PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(__file__)
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
@@ -64,7 +69,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = os.path.join(PROJECT_PATH, 'static')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
@@ -77,7 +82,8 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    "static/",
+    os.path.join(os.path.abspath(os.path.dirname(__file__) + '/..')),
+    #"static/",
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -112,6 +118,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'smiles.urls'
 
 TEMPLATE_DIRS = (
+    os.path.join(os.path.abspath(os.path.dirname(__file__) + '/..')),
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
