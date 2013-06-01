@@ -17,6 +17,7 @@
       left: 0;
       right: 0;
       z-index: 10;
+      margin-top: 10px;
       margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
     }
     .navbar-wrapper .navbar {
@@ -50,7 +51,7 @@
     }
 
     .carousel{
-      margin-top:15px;
+      margin-top:30px;
     }
 
     footer{
@@ -204,6 +205,6 @@ content: "\201C";
 font-size: 80px;
 position: absolute;
 left: -20px;
-top:5px;
+top:15px;
 color: #7a7a7a;
 }
